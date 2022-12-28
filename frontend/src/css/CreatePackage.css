@@ -1,0 +1,8 @@
+.errorMain{
+    height:20px;
+}
+.errorMessage{
+    font-size: 12px;
+    color: red;
+    margin-left: 5px;
+}

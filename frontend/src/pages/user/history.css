@@ -1,0 +1,31 @@
+.show-orders{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: white;
+    border-radius: 10px;
+}
+
+.span-heading{
+    font-size: 20px;
+}
+
+.div-span-heading{
+    margin-top: 10px;
+}
+
+.div-display-orders{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: wheat;
+}
+
+.div-span-details{
+    margin-top: 10px;
+}
+
+.div-span-details{
+    margin-top: 10px;
+}
+

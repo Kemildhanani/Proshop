@@ -1,0 +1,152 @@
+/* body {
+    background-color: #eee;
+} */
+
+.btn-first {
+    background-color: #71a7f0;
+    margin-top: 10px;
+}
+
+.btn-second {
+    background-color: #fd967e;
+    margin-top: 10px;
+}
+
+.btn-third {
+    background-color: #5bc3cd;
+    margin-top: 10px;
+}
+
+.plan-one {
+    margin: 0 0 20px 0;
+    width: 100%;
+    position: relative;
+}
+
+.plan-card {
+    background: #fff;
+    margin-bottom: 30px;
+    transition: .5s;
+    border: 0;
+    border-radius: .55rem;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+.plan-one .pricing-header {
+    padding: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.plan-one .pricing-header .plan-title {
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    padding: 10px 0;
+    font-weight: 600;
+    background: #5a99ee;
+    margin: 0;
+}
+
+.plan-one .pricing-header .plan-cost {
+    color: #ffffff;
+    background: #71a7f0;
+    padding: 15px 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.plan-one .pricing-header .plan-save {
+    color: #ffffff;
+    background: #84b3f2;
+    padding: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.plan-one .pricing-header.green .plan-title {
+    background: #47BCC7;
+}
+
+.plan-one .pricing-header.green .plan-cost {
+    background: #5bc3cd;
+}
+
+.plan-one .pricing-header.green .plan-save {
+    background: #6ac9d2;
+    font-size: 1.5rem;
+}
+
+.plan-one .pricing-header.orange .plan-title {
+    background: #fc8165;
+}
+
+.plan-one .pricing-header.orange .plan-cost {
+    background: #fd967e;
+}
+
+.plan-one .pricing-header.orange .plan-save {
+    background: #fdaa97;
+    font-size: 1.5rem;
+}
+
+.plan-one .plan-features {
+    border: 1px solid #e6ecf3;
+    border-top: 0;
+    border-bottom: 0;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.plan-one .plan-features li {
+    padding: 15px 15px 15px 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    border-bottom: 1px solid #e6ecf3;
+    line-height: 100%;
+}
+
+.plan-one .plan-footer {
+    border-top: 0;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    padding: 10px 0 30px 0;
+}
+
+.size {
+    height: 50px;
+    width: 50px;
+}
+
+.footer-first {
+    background-color: #5a99ee;
+}
+
+.footer-second {
+    background-color: #fc8165;
+}
+
+.footer-third {
+    background-color: #47BCC7;
+}
+
+@media (max-width: 767px) {
+    .plan-one .pricing-header {
+        text-align: center;
+    }
+
+    .plan-one .pricing-header i {
+        display: block;
+        float: none;
+        margin-bottom: 20px;
+    }
+}

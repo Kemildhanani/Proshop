@@ -1,0 +1,214 @@
+.checkout-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-address {
+    display: grid;
+    justify-content: space-between;
+}
+
+.address-div-main{
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .order-payment {
+        display: block;
+    }
+
+    .order-address {
+        width: 500px;
+    }
+
+    .order-summary {
+        margin: auto;
+        width: 450px;
+    }
+
+    .order-list {
+        margin: auto;
+        width: 600px;
+    }
+
+    .list-item {
+        display: flex;
+    }
+
+    .list-item .img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .list-item .name {
+        width: 250px;
+    }
+
+    .list-item .amount {
+        width: 70px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .order-payment {
+        display: block;
+    }
+
+    .order-summary {
+        margin: auto;
+        width: 500px;
+    }
+
+    .order-list {
+        margin: auto;
+        width: 600px;
+
+    }
+
+    .list-item {
+        display: flex;
+    }
+
+    .list-item .img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .list-item .name {
+        width: 500px;
+    }
+
+    .list-item .amount {
+        width: 200px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .order-payment {
+        display: block;
+    }
+
+    .order-summary {
+        margin: auto;
+        width: 500px;
+    }
+
+    .order-list {
+        margin: auto;
+        width: 600px;
+    }
+
+    .list-item {
+        display: flex;
+    }
+
+
+    .list-item .img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .list-item .name {
+        width: 500px;
+    }
+
+    .list-item .amount {
+        width: 200px;
+    }
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .payment-screen {
+        margin: auto;
+    }
+
+    .order-payment {
+        display: block;
+    }
+
+    .order-summary {
+        margin: auto;
+        width: 500px;
+    }
+
+    .order-list {
+        margin: auto;
+        width: 600px;
+    }
+
+
+
+    .list-item {
+        display: flex;
+    }
+
+
+    .list-item .img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .list-item .name {
+        width: 500px;
+    }
+
+    .list-item .amount {
+        width: 200px;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1400px) {
+    .payment-screen {
+        display: flex;
+        justify-content: center;
+    }
+
+    .order-payment {
+        display: grid;
+        grid-template-columns: 600px 400px;
+    }
+
+    .order-list {
+        width: 600px;
+        margin-top: 0%;
+    }
+    .lef{
+        display: flex;
+        align-items: center;
+    }
+
+    .order-summary {
+        width: 400px;
+    }
+
+    .list-item {
+        display: flex;
+    }
+
+    .list-item .img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .list-item .name {
+        width: 500px;
+    } 
+
+    .list-item .amount {
+        width: 200px;
+    }
+
+}

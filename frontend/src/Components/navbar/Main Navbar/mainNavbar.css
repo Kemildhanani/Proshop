@@ -1,0 +1,25 @@
+.dropdown{
+    margin-right: 2px;
+}
+
+.link{
+    /* margin-right: 20px; */
+    color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.link:hover{
+    color: rgb(236, 211, 211);
+}
+
+.brand{
+    font-size: 30px;
+    margin-right: 20px;
+    color: white;
+}
+
+.brand:hover{
+    color: white;
+}

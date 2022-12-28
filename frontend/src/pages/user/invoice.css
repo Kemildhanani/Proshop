@@ -1,0 +1,40 @@
+/* body {
+    background: grey;
+    margin-top: 120px;
+    margin-bottom: 120px;
+} */
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 50px; */
+    margin-top: 30px;
+}
+
+.container-userprofile{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.button-download{
+    margin-right: 30px;
+}
+
+.h2-header{
+    margin-left: 80px;
+}
+
+.container-invoice{
+    margin-bottom: 200px;
+}
+
+.logo-main{
+    display: flex !important;
+    justify-content: space-between !important;
+    /* flex-wrap: nowrap; */
+}
+
+@media print {
+    @page{
+        size: A4 portrait;
+    }
+}

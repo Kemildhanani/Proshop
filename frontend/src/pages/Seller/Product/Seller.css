@@ -1,0 +1,31 @@
+.seller-dashboard-home {
+    display: flex;
+    background-color: #595959;
+}
+.seller-dashboard-home .seller-dashboard-homeContainer {
+  flex: 6;
+}
+.seller-dashboard-home .seller-dashboard-homeContainer .seller-dashboard-widgets, .seller-dashboard-home .seller-dashboard-homeContainer .seller-dashboard-charts {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+.seller-dashboard-home .seller-dashboard-homeContainer .seller-dashboard-charts {
+  padding: 5px 20px;
+}
+.seller-dashboard-home .seller-dashboard-homeContainer .seller-dashboard-listContainer {
+  /* -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47); */
+  /* box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47); */
+  padding: 20px;
+  margin: 20px;
+}
+.seller-dashboard-home .seller-dashboard-homeContainer .seller-dashboard-listContainer .seller-dashboard-listTitle {
+  font-weight: 500;
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.seller-hr{
+    padding-top: -200px;
+}
+

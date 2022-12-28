@@ -1,0 +1,42 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar {
+    background-color: #353535 !important;
+    flex: 1;
+    border-right: 0.5px solid #e6e3e3;
+    min-height: 100vh;
+    background-color: white;
+    width: 250px;
+  }
+
+.sidebar hr {
+  height: 0;
+  border: 0.5px solid #e6e3e3;
+}
+
+.span-admin-dashboard{
+  font-size: 20px;
+}
+
+.div-li-main-dashboard{
+  margin-top: 20px;
+}
+
+.icon{
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.div-li-main{
+  display: flex;
+}
+
+
+
+
+
+  
+

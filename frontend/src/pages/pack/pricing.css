@@ -1,0 +1,217 @@
+body {
+    font-family: 'lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.wrapper-seller-pricing-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin: 3rem 11rem;
+}
+
+.seller-pricing-card {
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #e4e4e4;
+    box-shadow: 0 1px 1px transparent;
+    flex: 1;
+    float: right;
+    margin: 8px;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.seller-pricing-card.popular {
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.seller-pricing-card.popular .seller-pricing-card-title h3 {
+    color: #3498db;
+    font-size: 22px;
+}
+
+.seller-pricing-card.popular .seller-pricing-card-price {
+    margin: 50px;
+}
+
+.seller-pricing-card.popular .seller-pricing-card-price h1 {
+    color: #3498db;
+    font-size: 60px;
+}
+
+.seller-pricing-card.popular .seller-pricing-card-action button {
+    background-color: #3498db;
+    border-radius: 80px;
+    color: #fff;
+    font-size: 17px;
+    margin-top: -15px;
+    padding: 15px;
+    height: 80px;
+}
+
+.seller-pricing-card.popular .seller-pricing-card-action button:hover {
+    background-color: #2386c8;
+    font-size: 23px;
+}
+
+.seller-pricing-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.seller-pricing-card-ribbon {
+    position: absolute;
+    overflow: hidden;
+    top: -10px;
+    left: -10px;
+    width: 114px;
+    height: 112px;
+}
+
+.seller-pricing-card-ribbon span {
+    position: absolute;
+    display: block;
+    width: 160px;
+    padding: 10px 0;
+    background-color: #333;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    left: -35px;
+    top: 25px;
+    transform: rotate(-45deg);
+}
+
+.seller-pricing-card-ribbon::before,
+.seller-pricing-card-ribbon::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    border: 5px solid #2980b9;
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+
+.seller-pricing-card-ribbon::before {
+    top: 0;
+    right: 0;
+}
+
+.seller-pricing-card-ribbon::after {
+    bottom: 0;
+    left: 0;
+}
+
+.seller-pricing-card-title h3 {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.seller-pricing-card-title h4 {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.seller-pricing-card-price {
+    margin: 60px 0;
+}
+
+.seller-pricing-card-price h1 {
+    font-size: 46px;
+}
+
+.seller-pricing-card-price h1 sup {
+    font-size: 15px;
+    display: inline-block;
+    margin-left: -20px;
+    width: 10px;
+}
+
+.seller-pricing-card-price h1 small {
+    color: rgba(0, 0, 0, 0.3);
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.seller-pricing-card-description ul {
+    display: block;
+    list-style: none;
+    margin: 60px 0;
+    padding: 0;
+}
+
+.seller-pricing-card-description li {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 15px;
+    margin: 0 0 15px;
+}
+
+.seller-pricing-card-description li::before {
+    font-family: FontAwesome;
+    content: "\f00c";
+    padding: 0 5px 0 0;
+    color: rgba(0, 0, 0, 0.15);
+}
+
+.seller-pricing-card-action button {
+    background: transparent;
+    border: 2px solid #3498db;
+    border-radius: 30px;
+    color: #3498db;
+    cursor: pointer;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px;
+    width: 100%;
+    height: 60px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.seller-pricing-card-action button:hover {
+    background-color: #3498db;
+    box-shadow: 0 2px 4px #196090;
+    color: #fff;
+    font-size: 17px;
+}
+
+@media only screen and (max-width:1413px) {
+
+    .wrapper-seller-pricing-card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 3rem 2rem;
+    }
+
+}
+
+@media only screen and (max-width:1000px) {
+
+    .wrapper-seller-pricing-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 3rem 2rem;
+    }
+
+}
+
+@media only screen and (max-width:660px) {
+
+    .wrapper-seller-pricing-card {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 3rem 5rem;
+    }
+
+}

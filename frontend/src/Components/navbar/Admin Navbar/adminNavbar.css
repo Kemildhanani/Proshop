@@ -1,0 +1,81 @@
+.navbar {
+  background-color: #353535;
+    height: 65px;
+    border-bottom: 0.5px solid #e7e4e4;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    position: sticky;
+    top: 0;
+  }
+  .navbar .wrapper {
+    width: 100%;
+    /* padding: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar .wrapper .search {
+    display: flex;
+    align-items: center;
+    /* border: 0.5px solid lightgray; */
+    justify-content: center;
+    padding: 3px;
+    padding-left: 50px;
+    font-size: 25px;
+  }
+  .navbar .wrapper .search input {
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+  .navbar .wrapper .search input::placeholder {
+    font-size: 12px;
+  }
+  .navbar .wrapper .items {
+    display: flex;
+    align-items: center;
+  }
+  .navbar .wrapper .items .item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    position: relative;
+  }
+  .navbar .wrapper .items .item .icon {
+    font-size: 20px;
+    color: white;
+  }
+  .navbar .wrapper .items .item .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+  }
+  .navbar .wrapper .items .item .counter {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+  }
+
+  #nav-dropdown:hover{
+    color: white;
+    /* font-weight: bold; */
+    /* background-color: red; */
+}
+
+.nav-dropdown{
+  padding: 0 !important;
+  color: white !important;
+}
